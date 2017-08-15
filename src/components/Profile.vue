@@ -63,6 +63,8 @@
 </template>
 
 <script>
+// todo:
+// Pass a signed contract object with terms that could be stored on the user storage
 var data = {
   general: [
     {
@@ -117,6 +119,11 @@ export default {
     openData: function () {
       var vm = this
       vm.loading = true
+      // todo:
+      // Send a request to the user endpoint with a key in the header
+      // Read the data on the user drive
+      // Query data provider and find public owner Address
+      // Verify HMAC...
       setTimeout(function () {
         vm.loading = false
       }, 1000)

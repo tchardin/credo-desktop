@@ -22,6 +22,7 @@
               <a class="nav-item">
                 Profile
               </a>
+              <!-- Todo: add a Bitcoin wallet address and balance -->
               <a class="nav-item">
                 Wallet
               </a>
